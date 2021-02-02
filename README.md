@@ -8,5 +8,8 @@ SalesForce.twbx
 Can be run using the free version of tableau. 
 
 
-
+#Opportunity Dashboard
 ![Oppotunity Dashboard](Capture2.PNG)
+
+#Sales Dashboard
+![Sales](Capture3.PNG)
