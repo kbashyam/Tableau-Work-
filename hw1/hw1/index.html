@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+		<title>Tableau Homework - Kanishk Bashyam</title>
+	</head>
+	<style>
+	body {
+		margin:auto;
+  		width: 70%;
+  		max-width:700px;
+  		background-color: gray
+  		opacity :50;
+	}
+	header, footer, article, nav, aside {
+    padding: 1em;
+  }
+	h2, h3, h4 {
+		text-align: center;
+	}
+	img {
+    	width: 100%;
+  		border: 1px solid gray;
+	}
+	hr {
+		opacity: 100%;
+	}
+
+	p {
+		margin-top:10px;
+		text-align: justify;
+    	text-justify: inter-word;
+	}
+	</style>
+	<body>
+		<header>
+			<h2  >Homework #1 - Boston Crime Exploration </h2>
+			<h3>Kanishk Bashyam&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;9/2/2019</h3>
+		</header>
+		<p>
+			For the assingnment, I explored a dataset detailing crime within boston through the years 2015-2018. The basic inference I wanted to extract was to make it safe for anyone visiting boston. In order to do so I identified months where crime was the highest, time of day it most frequently occured and so on . The dataset can be found <a style = " white-space:nowrap; " href="https://www.kaggle.com/ankkur13/boston-crime-data"> **HERE**</a> .
+		</p>
+		<hr>
+		<h3>Question 1: Which Part of Boston Crime Occurs the Most ??</h3>
+		<img src="imgs/Densitymap.png" alt="The cool visualization example that I found!">
+		<p>
+			For question #1, I was very adamant on wanting to construct a density map. So I constructed a map showing where crime rates were higher (In this case where the #records were higher). However, I was unable to add different colors to represent various districts. The tabeleau tool allowed me to hover over the parts and indentify the regions A1 and A15 for having the most # of recorded crimes. This I varified using a simple bar chart.
+		</p>
+		<hr>
+		
+		<h3>Question 2: What Are The Most Recurring Crimes ?? </h3>
+		<img src="imgs/Crime.png" alt="The cool visualization example that I found!">
+		<p>
+			For question #2, I added the filter to UCR dimension in the dataset. I filtered out something the author classified as part 3 in the ucr rating. They mainly consisted of calls made to investigate a suspicious person or a call made when someone was injured and needed medical assistance. My main consideration were crime that could harm an individual like a part1 or part2 crime ( FBI Ucr ).
+		</p>
+		<hr>
+		<h3>Question 3: Identify a Trend For When Crime Is The Highest.</h3>
+		<img src="imgs/Bar.png" alt="The cool visualization example that I found!">
+		<p>
+			For question #3, I identified that the months may through september experienceed the most crime. This was attributed to the fact that these month experienced zero snowfall. While the time of day spiked at 5pm and 6pm typically after office hours get over. A <i> "Part 3 Ucr" </i>indicates a call made due to a an individual requiring assistance, so given a part2 or part1 crime most of them were called in within an hour.
+
+		<hr>
+		<h3> Conclusion </h3>
+		<p>
+			The tableau interface was relatively easy to use. This made it easy to learn the characteristics of the dataset fairly easily. 
+			The Crime dataset enabled me to figure out of the frequency of crime at various different intervals of time. However a few more inference I could have extracted like weapons used in the crime, a more accurate record of case solved and resolved depicting the actual strength of the neighboring police departments. 
+		</p>
+
+
+
+
+	
+</body>
+</html>
