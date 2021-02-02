@@ -9,4 +9,4 @@ Can be run using the free version of tableau.
 
 
 
-![Oppotunity Dashboard](Capture2.png)
+![Oppotunity Dashboard](Capture2.PNG)
